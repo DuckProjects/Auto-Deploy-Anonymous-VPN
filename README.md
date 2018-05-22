@@ -1,4 +1,4 @@
-# ADAV - Auto Deploy Anonymous VPN
+# -- FIRST RELEASE WILL BE SUBMITTED SOON -- ADAV - Auto Deploy Anonymous VPN
 
 
 Auto Deploy Anonymous VPN on Debian-based OS.
