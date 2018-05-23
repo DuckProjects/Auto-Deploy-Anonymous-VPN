@@ -1,0 +1,3 @@
+zone "criteo.net" { type master; notify no; file "null.zone.file"; };
+zone "x.co" { type master; notify no; file "null.zone.file"; };
+zone "i.com" { type master; notify no; file "null.zone.file"; };
