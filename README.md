@@ -99,7 +99,7 @@ ADAV configuration has been tested with a .ovpn file on these clients :
 No problems have been identified. If you got some, please report.
 
 ## Anonimity/Security enhancments Tips & Tricks
-- Customize the reverse DNS of your server/VPS (generally on your hoster webmanager)
+- If possible, customize the reverse DNS of your server/VPS (generally on your hoster webmanager)
 
 
 > DuckProjects.Net
