@@ -24,7 +24,7 @@ If you successfully ran this script under other Debian-based OS, please let me k
 - Securize SSH access to the server
 - Local DNS resolver for users connected to VPN
 - Blacklist malware/ads domains (at DNS level) - block most ads on smartphone apps
-- Can host a page/website accessible only for users conected to VPN
+- Can host a page/website accessible only for users connected to VPN
 - Access the webserver through a custom domain name
 
 
@@ -84,6 +84,8 @@ To refresh the file of blacklisted domains used by bind, execute the "bind-mgmt.
 - TO BE FIXED : Port 68 UDP -> Bind DNS Server ? / Port 953 TCP -> ?
 - TO BE FIXED : Identify the SSH port and open it to the Internet through iptables when SSH user not created by the script
 - ENHANCEMENT : Add function to keep previous iptables records
+- TO BE FIXED : Find a better way to ask for SSH user password
+- ENHANCEMENT : Add uninstalling function
 - README : (Add Tips & Tricks to enhance server anonimity/security)
 
 New ideas welcome !
