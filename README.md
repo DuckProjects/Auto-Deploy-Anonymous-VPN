@@ -82,7 +82,7 @@ To refresh the file of blacklisted domains used by bind, execute the "bind-mgmt.
 - ENHANCEMENT : Add support for other OS (not Debian-based)
 - TO BE FIXED : nameserver bug in bind-mgmt.sh
 - TO BE FIXED : Port 68 UDP -> Bind DNS Server ? / Port 953 TCP -> ?
-- TO BE FIXED : Identify the SSH port and open it to the Internet through iptables when SSh user not created by the script
+- TO BE FIXED : Identify the SSH port and open it to the Internet through iptables when SSH user not created by the script
 - ENHANCEMENT : Add function to keep previous iptables records
 - README : (Add Tips & Tricks to enhance server anonimity/security)
 
