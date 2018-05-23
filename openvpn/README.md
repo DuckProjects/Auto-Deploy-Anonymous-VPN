@@ -1,13 +1,3 @@
-# OpenVPN-install
-
-OpenVPN installer for Debian, Ubuntu, Fedora, CentOS and Arch Linux.
-
-This script will let you setup your own secure VPN server in just a few minutes.
-
-Here is a preview of the installer :
-
-![](https://lut.im/IzjFrfhM18/DY8KD91W0uMhEgLp.png)
-![](https://lut.im/eODTn8Sa9y/euCqh0wzXwlz3UNs.png)
 
 # /!\ Script modification /!\
 
@@ -27,6 +17,18 @@ An option has been added to select "localhost" for the DNS configuration.
 
 These lines allow Ubuntu clients to apply VPN DNS servers instead of own DNS when connecting to the vpn through "openvpn clientexample.ovpn"
 See the README_FIRST file at the root directory of the script collection for further information.
+
+# OpenVPN-install
+
+OpenVPN installer for Debian, Ubuntu, Fedora, CentOS and Arch Linux.
+
+This script will let you setup your own secure VPN server in just a few minutes.
+
+Here is a preview of the installer :
+
+![](https://lut.im/IzjFrfhM18/DY8KD91W0uMhEgLp.png)
+![](https://lut.im/eODTn8Sa9y/euCqh0wzXwlz3UNs.png)
+
 
 ## Usage
 
