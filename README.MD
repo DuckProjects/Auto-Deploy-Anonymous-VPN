@@ -52,14 +52,13 @@ Nginx is a fast and light Webserver. ADAV will ask you if you want to setup a lo
 ## Installation
 ### From a fresh debian install
 
-From a fresh Debian 9 install, just upload "ADAV.zip" in the /home/ folder of your server and execute the following command line as ROOT :
+From a fresh Debian 9 install, just execute the following command line as ROOT :
 
-> sudo apt-get update;sudo apt-get upgrade;sudo apt-get install unzip;cd /home/;unzip ADAV.zip;cd ADAV/;chmod +x run_me_to_install_ADAV.sh;./run_me_to_install_ADAV.sh
+> sudo apt-get update;sudo apt-get upgrade;sudo apt-get install git;git clone https://github.com/DuckProjects/Auto-Deploy-Anonymous-VPN ;cd Auto-Deploy-Anonymous-VPN/;chmod +x run_me_to_install_ADAV.sh;./run_me_to_install_ADAV.sh
 
 Answer questions asked by the script and ... Voila !
 
 ### Classic installation
-- Unzip ADAV.zip somewhere on your server : "unzip ADAV.zip" if not installed : "sudo apt-get install unzip"
 - Make the installation script executable : "chmod +x run_me_to_install_ADAV.sh"
 - Execute the script as root user : "./run_me_to_install_ADAV.sh"
 - Answer some questions
@@ -67,12 +66,12 @@ Answer questions asked by the script and ... Voila !
 
 ### Manage VPN users
 When running ADAV, the script will ask you for a first VPN user to create and will output an "ovpn" client file. If you want to add/remove VPN users, execute the "openvpn-install.sh" script after ADAV installation has been completed.
-> cd /home/ADAV/openvpn\
+> cd ADAV/openvpn\
 > ./openvpn-install.sh
 
 ### Refresh bind blacklist file
 To refresh the file of blacklisted domains used by bind, execute the "bind-mgmt.sh" script with the "refresh" option after ADAV installation has been completed.
->cd /home/ADAV/bind\
+>cd ADAV/bind\
 >./bind-mgmt.sh refresh
 
 
